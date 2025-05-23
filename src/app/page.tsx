@@ -50,7 +50,7 @@ export default function Home() {
             GitHub
           </a>
               <a
-            href="www.ncawmscog.org"
+            href="https://www.ncawmscog.org"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition"
@@ -58,7 +58,7 @@ export default function Home() {
             MyProject 1
           </a>
             <a
-            href="www.active-do.com"
+            href="https://www.active-do.com"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition"
