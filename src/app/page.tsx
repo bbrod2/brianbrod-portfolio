@@ -7,6 +7,9 @@ import Projects from '@/components/Projects';
 import AboutMe from '@/components/AboutMe';
 import Endorsements from '@/components/Endorsements';
 import SkillsSection from '@/components/SkillsSection';
+import CertificationsAndAwards from '@/components/CertificationsAndAwards';
+import VolunteerImpact from '@/components/VolunteerImpact';
+
 
 export default function Home() {
   useEffect(() => {
@@ -71,9 +74,9 @@ export default function Home() {
       <Projects />
       <Endorsements />
       <SkillsSection />
-
-      {/* Ensure the timeline is at the end for better flow */}
       <Timeline />
+      <CertificationsAndAwards />
+      <VolunteerImpact />
 
       <footer className="text-center p-6 text-sm text-gray-500 dark:text-gray-400">
         &copy; {new Date().getFullYear()} Brian Brod. Built with Next.js, Tailwind CSS, and Framer Motion.
