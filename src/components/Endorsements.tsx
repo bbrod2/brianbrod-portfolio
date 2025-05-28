@@ -40,7 +40,9 @@ export default function Endorsements() {
             transition={{ duration: 0.6, delay: i * 0.2 }}
             className="bg-white dark:bg-gray-800 border-l-4 border-blue-500 p-6 rounded shadow-md"
           >
-            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 italic">"{t.text}"</p>
+            <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 italic">
+              &ldquo;{t.text}&rdquo;
+            </p>
             <footer className="mt-4 text-sm text-blue-600 font-semibold">– {t.author}</footer>
           </motion.blockquote>
         ))}
