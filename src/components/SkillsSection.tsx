@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FaJava, FaReact, FaDatabase, FaDocker, FaGitAlt, FaHtml5, FaCss3Alt } from 'react-icons/fa';
+import { FaJava, FaReact, FaDocker, FaGitAlt, FaHtml5, FaCss3Alt } from 'react-icons/fa';
 import { SiSpringboot, SiTailwindcss, SiMysql } from 'react-icons/si';
 import { FaCode } from 'react-icons/fa';
 
